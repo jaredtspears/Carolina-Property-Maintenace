@@ -1,0 +1,240 @@
+/* general body and texts: 
+
+font-family: 'Varela', sans-serif;
+
+for the name logo: 
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Special Elite', cursive; */
+
+.background{
+    background-color: grey;
+}
+
+/* normal computer size logo */
+.ml5 {
+    font-family: 'Special Elite', cursive; 
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color:forestgreen;
+  }
+  
+  .letters-right, #letters-right {
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    font-weight: 600;
+    font-size: .7em;
+    color: yellow;
+  }
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: -21px;
+    bottom: 0px;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color:forestgreen;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  };
+/* for carolina property mangement */
+.cpm{
+ color: forestgreen;
+ font-family: 'Varela', sans-serif;
+}
+svg, #recipeImg{
+  fill:forestgreen;
+  } 
+
+  .polymorph{
+    fill:green;
+    position:absolute;
+  }
+  
+  /* button styling */
+  #cta, #cta2{
+    /* sits ont top the svg file */
+    position: absolute;
+    margin: 10em auto 0 auto;
+    left:0;
+    right:0;
+    width:30%;
+    background:none;
+    color: yellow;
+    font-family: 'Varela', sans-serif;
+  }
+  
+  /* button 2 */
+  #cta2{
+    width:auto;
+    margin:20px auto;
+    background: forestgreen;
+    font-family: 'Varela', sans-serif;
+  }
+  
+  /* for CPM and moto texts */
+  #blip {
+  position: absolute;
+  color: #FBB03B;
+  right: 25%;
+  top:0;
+  opacity:0;
+  width:30%;
+  transform: translateY(-800px);
+  font-family: 'Varela', sans-serif;
+  }
+  
+
+  /* meida query for tablets logo*/
+  @media(max-width:750px){
+    .ml5 {
+        font-family: 'Special Elite', cursive; 
+        position: relative;
+        font-weight: 300;
+        font-size: 2em;
+        color: black;
+      }
+      
+      .letters-right, #letters-right {
+        font-family: 'Great Vibes', cursive;
+        position: relative;
+        font-weight: 600;
+        font-size: .7em;
+        color: yellow;
+      }
+      .ml5 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.1em;
+        padding-right: 0.05em;
+        padding-bottom: 0.15em;
+        line-height: 1em;
+      }
+      
+      .ml5 .line {
+        position: absolute;
+        left: 0;
+        top: -6px;
+        bottom: 0px;
+        margin: auto;
+        height: 3px;
+        width: 100%;
+        background-color: forestgreen;
+        transform-origin: 0.5 0;
+      }
+      
+      .ml5 .letters {
+        display: inline-block;
+        opacity: 0;
+      }
+
+      /* for carolina property mangement */
+    .CPM{
+    color: yellow;
+    font-size: 1.5em;
+    font-family: 'Varela', sans-serif;
+   }
+  }
+
+  /* media query for phones divices logo*/
+  @media(max-width:550px){
+    .ml5 {
+        font-family: 'Special Elite', cursive; 
+        position: relative;
+        font-weight: 300;
+        font-size: 1.7em;
+        color: forestgreen;
+      }
+      
+      .letters-right, #letters-right {
+        font-family: 'Great Vibes', cursive;
+        position: relative;
+        font-weight: 600;
+        font-size: .6em;
+        color:yellow;
+      }
+      .ml5 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.15em;
+        line-height: 1em;
+      }
+      
+      .ml5 .line{
+        position: absolute;
+        left: 0;
+        top: -10px;
+        bottom: -4px;
+        margin: auto;
+        height: 3px;
+        width: 100%;
+        background-color: forestgreen;
+        transform-origin: 0.5 0;
+      }
+      
+      .ml5 .letters {
+        display: inline-block;
+        opacity: 0;
+      }
+/* for carolina property mangement */
+.CPM{
+    color: yellow;
+    font-size: 1em;
+    font-family: 'Varela', sans-serif;
+   }
+
+/* button styling */
+#cta{
+    /* sits ont top the svg file */
+    position: absolute;
+    margin: 0 auto 0 auto;
+    top: 10%;
+    left:0%;
+    right:0;
+    width:30%;
+    background:none;
+    color: yellow;
+    font-family: 'Varela', sans-serif;
+  }
+    
+  #cta2{
+    width:auto;
+    margin:20px, auto;
+    background: forestgreen;
+    top: 10%;
+    left:-100%;
+    right:0;
+    font-family: 'Varela', sans-serif;
+    
+  }
+  
+  #blip {
+  position: absolute;
+  color: yellow;
+  right: 25%;
+  top:-20%;
+  opacity:0;
+  width:30%;
+  transform: translateY(-800px);
+  font-size: 1em;
+  font-family: 'Varela', sans-serif;
+  }
+
+  }
