@@ -8,14 +8,49 @@
     <link rel="stylesheet" href="assets/style.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Special+Elite|Varela" rel="stylesheet">
+    <!-- jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <!-- semantic -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css">
-     <!-- animate.css -->
+    
+     <!-- animate.css-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+     
 </head>
 <body class="background">
+      <!-- content for sidebar -->
+    <div class="ui sidebar">
+        <a class="item">
+          Professional Cleaning
+        </a>
+        <a class="item">
+          Lawn Car and Landscaping
+        </a>
+        <a class="item">
+          Interior/exterior Painting
+        </a>
+        <a class="item">
+          Home Repairs
+        </a>
+        <a class="item">
+          Pressure Washing
+        </a>
+        <a class="item">
+          Deck Repair/Staining
+        </a>
+    </div>
 
-    <!-- <div class= "animated zoomOutUp delay-5s"> -->
+<!-- menu -->
+<div class="ui basic inverted icon menu">
+    <a id="toggle" class="item">
+        <i class="sidebar icon"></i>
+        Menu
+    </a>
+</div>
+<!-- content for main page -->
+<div class="pusher">
 
         <button class="ui inverted grey button" id='cta'>Carolina Property Maintenance</button>
         
@@ -28,26 +63,30 @@
     </svg>
             
     <div id='blip'>
-            <h1 class="ml5">
-                    <span class="text-wrapper">
-                      <span class="line line1"></span>
-                      <span class="letters letters-left">Chad</span>
-                      <span class="letters letters-right" id="letters-right">Shepard</span>
-                      <span class="line line2"></span>
-                    </span>
-                  </h1>
+        <h1 class="ml5">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters letters-left">Chad</span>
+                    <span class="letters letters-right" id="letters-right">Shepard</span>
+                    <span class="line line2"></span>
+                </span>
+            </h1>
         <h2 id="CPM"> Carolina Property Mangament</h2>
         <h2 id= "CPM"> Working effeciently on your behalf!</h2>
-        <button type="button" class="ui inverted secondary button purechat-button-expand" id="pureChat">Chat with Chad!</button>
-        <!-- <button class="ui inverted secondary button" id='cta2'>Go Back</button>
-    </div> -->
-<!-- </div> -->
-  
-    <!-- anime js -->
+        <!-- button for sidebar interaction might go with menu option for toggle sidebar
+        <button class="ui inverted button services" id="services">Services</button> -->
+</div>
+<!-- button for purechat -->
+<button type="button" class="ui inverted secondary button purechat-button-expand" id="pureChat">Chat with Chad!</button>
+</div>
+      <!-- anime js -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>     
      <!--script for animations  -->
       <script src="assets/animation.js"></script>
-
+      <!-- script for main.js -->
+      <script src="assets/main.js"></script>
+      <!-- semantic js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/sidebar.js"></script>
     <!-- pureChat script -->
     <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '3d58cd6a-8eb5-47f5-b9cd-e525a40b0cdc', f: true }); done = true; } }; })();</script>
   

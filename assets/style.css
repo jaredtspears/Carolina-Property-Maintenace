@@ -10,6 +10,18 @@ font-family: 'Special Elite', cursive; */
 .background{
     background-color: rgb(83, 82, 82);
 }
+/* for sidebar should have no effect on code
+preventing errors in iOS sidebars */
+
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
 
 /* normal computer size logo */
 .ml5 {
@@ -79,14 +91,6 @@ svg, #recipeImg{
     font-family: 'Varela', sans-serif;
   }
   
-  /* button 2 */
-  #cta2{
-    width:auto;
-    margin:20px auto;
-    background: forestgreen;
-    font-family: 'Varela', sans-serif;
-  }
-  
   /* for CPM and moto texts */
   #blip {
   position: absolute;
@@ -104,8 +108,8 @@ svg, #recipeImg{
     margin:20px, auto;
     background: forestgreen;
     top: 10%;
-    left:-100%;
-    right:0;
+    left:0;
+    right:100%;
     font-family: 'Varela', sans-serif;
     
   }
@@ -177,8 +181,8 @@ svg, #recipeImg{
     margin:20px, auto;
     background: forestgreen;
     top: 10%;
-    left:-100%;
-    right:0;
+    left:0;
+    right:100%;
     font-family: 'Varela', sans-serif;
     
   }
@@ -252,8 +256,8 @@ svg, #recipeImg{
     margin:20px, auto;
     background: forestgreen;
     top: 10%;
-    left:-100%;
-    right:0;
+    left:0;
+    right:100%;
     font-family: 'Varela', sans-serif;
     
   }
@@ -329,8 +333,8 @@ svg, #recipeImg{
     margin:20px, auto;
     background: forestgreen;
     top: 10%;
-    left:-100%;
-    right:0;
+    left:0;
+    right:100%;
     font-family: 'Varela', sans-serif;
     
   }
@@ -339,12 +343,11 @@ svg, #recipeImg{
   position: absolute;
   color: yellow;
   right: 25%;
-  top:-20%;
+  top:-10%;
   opacity:0;
   width:30%;
   transform: translateY(-800px);
   font-size: 1em;
   font-family: 'Varela', sans-serif;
   }
-
   }
